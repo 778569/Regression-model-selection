@@ -17,4 +17,14 @@ We provide the data both in .ods and in .xlsx formats.
 - Relative Humidity (RH) in the range 25.56% to 100.16%
 - Exhaust Vacuum (V) in teh range 25.36-81.56 cm Hg
 - Net hourly electrical energy output (EP) 420.26-495.76 MW
-The averages are taken from various sensors located around the plant that record the ambient variables every second. The variables are given without normalization. 
+The averages are taken from various sensors located around the plant that record the ambient variables every second. The variables are given without normalization.
+
+## Choose the Best Model
+
+
+* Multiple Linear Regression Model R2 = 0.9325315554761303
+* Polynomial Regression Model R2 = 0.945819248451021
+* Support Vector Regression Model R2 = 0.9480784049986258
+* Decision Tree Regression Model R2= 0.922905874177941
+* Random Forest Regression Model R2 = 0.9537994775415262<br><br>
+<b>Therefore Best Model is Random Forest Regression Model</b>
